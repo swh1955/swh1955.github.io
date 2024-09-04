@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 340 410" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1.00785,-31.3294,3.22703)">
+        <path d="M42.812,6.823C42.8,8.294 41.642,212.705 43.167,234.931C48.102,306.84 144.561,375.323 200.365,394.314C297.274,364.477 354.612,275.234 357.007,235C361.168,165.108 358.919,13.367 358.85,7.258L42.812,6.823Z" style="fill:white;stroke:black;stroke-width:8.96px;"/>
+    </g>
+    <g transform="matrix(-1.11966,-1.37119e-16,1.43313e-16,-1.17024,382.216,429.524)">
+        <path d="M190.692,87.98L266.41,284.717L114.974,284.717L190.692,87.98Z"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-58.2401,18.3977)">
+        <text x="180.942px" y="176.524px" style="font-family:'MS-UIGothic', 'MS UI Gothic', sans-serif;font-size:38px;fill:white;">1<tspan x="201.576px 222.21px 242.844px " y="176.524px 176.524px 176.524px ">955</tspan></text>
+    </g>
+    <g transform="matrix(1,0,0,1,-25.6405,60.7852)">
+        <g id="schwarz">
+            <g transform="matrix(0.893336,-0.449389,0.449389,0.893336,-117.413,128.274)">
+                <text x="211.512px" y="311.475px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">S</text>
+            </g>
+            <g transform="matrix(0.829486,-0.558527,0.558527,0.829486,-127.725,181.776)">
+                <text x="233.846px" y="300.073px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">C</text>
+            </g>
+            <g transform="matrix(0.75558,-0.655057,0.655057,0.75558,-124.425,237.14)">
+                <text x="255.56px" y="285.302px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">H</text>
+            </g>
+            <g transform="matrix(0.663619,-0.748071,0.748071,0.663619,-106.525,296.821)">
+                <text x="276.784px" y="266.86px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">W</text>
+            </g>
+            <g transform="matrix(0.566224,-0.824251,0.824251,0.566224,-70.2432,350.903)">
+                <text x="298.267px" y="242.189px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">A</text>
+            </g>
+            <g transform="matrix(0.453796,-0.891106,0.891106,0.453796,-24.3214,399.439)">
+                <text x="313.672px" y="219.559px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">R</text>
+            </g>
+            <g transform="matrix(0.259831,-0.965654,0.965654,0.259831,50.879,459.896)">
+                <text x="325.439px" y="196.759px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">Z</text>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-25.6405,60.7852)">
+        <g id="weiss">
+            <g transform="matrix(0.0522029,-0.998636,0.998636,0.0522029,139.185,497.08)">
+                <text x="331.464px" y="175.214px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">-</text>
+            </g>
+            <g transform="matrix(0.0375423,-0.999295,0.999295,0.0375423,163.446,483)">
+                <text x="332.466px" y="156.649px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">W</text>
+            </g>
+            <g transform="matrix(0.020288,-0.999794,0.999794,0.020288,204.654,453.428)">
+                <text x="333.688px" y="122.289px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">E</text>
+            </g>
+            <g transform="matrix(0.00872927,-0.999962,0.999962,0.00872927,232.754,431.719)">
+                <text x="334.129px" y="98.462px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">I</text>
+            </g>
+            <g transform="matrix(-0.00479213,-0.999989,0.999989,-0.00479213,252.161,418.384)">
+                <text x="334.272px" y="83.714px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">S</text>
+            </g>
+            <g transform="matrix(-0.0246755,-0.999696,0.999696,-0.0246755,284.471,393.36)">
+                <text x="334.121px" y="57.912px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">S</text>
+            </g>
+        </g>
+    </g>
+    <g id="hultrop" transform="matrix(1,0,0,1,-165.096,-66.1371)">
+        <text x="191.424px" y="143.206px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:60px;">H<tspan x="237.07px 280.167px 311.692px 353.09px 395.133px 440.164px " y="143.206px 143.206px 143.206px 143.206px 143.206px 143.206px ">ULTROP</tspan></text>
+    </g>
+    <g transform="matrix(1,0,0,1,-51.1511,34.4687)">
+        <text x="158.013px" y="116.615px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:60px;fill:white;">S<tspan x="194.616px 243.757px " y="116.615px 116.615px ">WH</tspan></text>
+    </g>
+    <g transform="matrix(1,0,0,1,-12.1941,3.3836)">
+        <g id="sportverein">
+            <g transform="matrix(-0.00239329,0.999997,-0.999997,-0.00239329,130.845,46.0306)">
+                <text x="42.462px" y="88.282px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">S</text>
+            </g>
+            <g transform="matrix(-0.000710014,1,-1,-0.000710014,162.415,77.6859)">
+                <text x="42.392px" y="119.993px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">P</text>
+            </g>
+            <g transform="matrix(0.00206403,0.999998,-0.999998,0.00206403,195.267,110.288)">
+                <text x="42.376px" y="152.979px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">O</text>
+            </g>
+            <g transform="matrix(0.0085961,0.999963,-0.999963,0.0085961,229.406,143.252)">
+                <text x="42.459px" y="187.319px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">R</text>
+            </g>
+            <g transform="matrix(0.0889006,0.996041,-0.996041,0.0889006,256.273,157.038)">
+                <text x="42.297px" y="218.601px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">T</text>
+            </g>
+            <g transform="matrix(0.415422,0.909629,-0.909629,0.415422,255.399,103.582)">
+                <text x="47.11px" y="250.497px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">V</text>
+            </g>
+            <g transform="matrix(0.600063,0.799953,-0.799953,0.600063,248.982,62.2942)">
+                <text x="62.191px" y="280.154px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">E</text>
+            </g>
+            <g transform="matrix(0.707639,0.706574,-0.706574,0.707639,238.023,31.8616)">
+                <text x="80.51px" y="303.556px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">R</text>
+            </g>
+            <g transform="matrix(0.779684,0.626173,-0.626173,0.779684,226.998,6.82868)">
+                <text x="103.795px" y="325.997px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">E</text>
+            </g>
+            <g transform="matrix(0.823961,0.566647,-0.566647,0.823961,217.435,-11.5211)">
+                <text x="127.26px" y="344.187px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">I</text>
+            </g>
+            <g transform="matrix(0.867458,0.49751,-0.49751,0.867458,196.164,-24.6615)">
+                <text x="144.367px" y="355.831px" style="font-family:'RobotoCondensed-Bold', 'Roboto Condensed';font-weight:700;font-size:41px;">N</text>
+            </g>
+        </g>
+    </g>
+</svg>
