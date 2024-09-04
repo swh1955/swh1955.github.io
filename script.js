@@ -39,14 +39,18 @@ function showSlide(index) {
 
 // Vorwärts bewegen
 nextBtn.addEventListener('click', () => {
-    currentSlide = (currentSlide + 1) % slides.length;
-    showSlide(currentSlide);
+    if (currentSlide < slides.length - 1) {  // Verhindert Vorwärtsklicken bei letztem Slide
+        currentSlide = (currentSlide + 1);
+        showSlide(currentSlide);
+    }
 });
 
 // Rückwärts bewegen
 prevBtn.addEventListener('click', () => {
-    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-    showSlide(currentSlide);
+    if (currentSlide > 0) {  // Verhindert Rückwärtsklicken bei erstem Slide
+        currentSlide = (currentSlide - 1);
+        showSlide(currentSlide);
+    }
 });
 
 // Swipe-Gesten hinzufügen (für mobile Geräte)
@@ -59,11 +63,12 @@ document.addEventListener('touchstart', (e) => {
 document.addEventListener('touchend', (e) => {
     let endX = e.changedTouches[0].clientX;
 
-    if (startX - endX > 50) {
-        // Wischen nach links (nächstes Bild)
+    // Swipe nach links (zum nächsten Slide), aber nur, wenn wir nicht beim letzten Slide sind
+    if (startX - endX > 50 && currentSlide < slides.length - 1) {
         nextBtn.click();
-    } else if (endX - startX > 50) {
-        // Wischen nach rechts (vorheriges Bild)
+    }
+    // Swipe nach rechts (zum vorherigen Slide), aber nur, wenn wir nicht beim ersten Slide sind
+    else if (endX - startX > 50 && currentSlide > 0) {
         prevBtn.click();
     }
 });
