@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bild- und Audioslideshow</title>
+    <title>Bild- und Audiogalerie</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,88 +15,86 @@
     </header>
 
     <main>
-        <section class="slideshow">
-            <!-- Vorheriger Button -->
-            <button id="prevBtn" class="nav-btn">❮</button>
+        <!-- Titel der Bildergalerie -->
+        <section class="gallery-header">
+            <h2>Entdecken Sie unsere Galerie</h2>
+            <p>Jedes Bild hat eine dazugehörige Audio-Datei. Klicken Sie auf "Play", um den Sound zu hören!</p>
+        </section>
 
-            <!-- Bilder und Audio -->
-            <div class="slide" id="slide1">
+        <section class="gallery">
+            <div class="gallery-item">
                 <img src="images/start.png" alt="Bild 1">
-                <audio id="audio1" controls>
+                <audio controls>
                     <source src="audios/start.mp3" type="audio/mp3">
                     Dein Browser unterstützt keine Audio-Wiedergabe.
                 </audio>
             </div>
 
-            <div class="slide" id="slide2">
+            <div class="gallery-item">
                 <img src="images/haibecken.png" alt="Bild 2">
-                <audio id="audio2" controls>
+                <audio controls>
                     <source src="audios/haibecken.mp3" type="audio/mp3">
                     Dein Browser unterstützt keine Audio-Wiedergabe.
                 </audio>
             </div>
 
-            <div class="slide" id="slide3">
+            <div class="gallery-item">
                 <img src="images/bällebad.png" alt="Bild 3">
-                <audio id="audio3" controls>
+                <audio controls>
                     <source src="audios/bällebad.mp3" type="audio/mp3">
                     Dein Browser unterstützt keine Audio-Wiedergabe.
                 </audio>
             </div>
 
-            <div class="slide" id="slide4">
+            <div class="gallery-item">
                 <img src="images/heu.png" alt="Bild 4">
-                <audio id="audio4" controls>
+                <audio controls>
                     <source src="audios/heu.mp3" type="audio/mp3">
                     Dein Browser unterstützt keine Audio-Wiedergabe.
                 </audio>
             </div>
 
-            <div class="slide" id="slide5">
+            <div class="gallery-item">
                 <img src="images/lava.png" alt="Bild 4">
-                <audio id="audio5" controls>
+                <audio controls>
                     <source src="audios/lava.mp3" type="audio/mp3">
                     Dein Browser unterstützt keine Audio-Wiedergabe.
                 </audio>
             </div>
 
-            <div class="slide" id="slide6">
+            <div class="gallery-item">
                 <img src="images/spinne.png" alt="Bild 4">
-                <audio id="audio6" controls>
+                <audio controls>
                     <source src="audios/spinne.mp3" type="audio/mp3">
                     Dein Browser unterstützt keine Audio-Wiedergabe.
                 </audio>
             </div>
 
-            <div class="slide" id="slide7">
+            <div class="gallery-item">
                 <img src="images/tunnel.png" alt="Bild 4">
-                <audio id="audio7" controls>
+                <audio controls>
                     <source src="audios/tunnel.mp3" type="audio/mp3">
                     Dein Browser unterstützt keine Audio-Wiedergabe.
                 </audio>
             </div>
 
-            <div class="slide" id="slide8">
+            <div class="gallery-item">
                 <img src="images/rutsche.png" alt="Bild 4">
-                <audio id="audio8" controls>
+                <audio controls>
                     <source src="audios/rutsche.mp3" type="audio/mp3">
                     Dein Browser unterstützt keine Audio-Wiedergabe.
                 </audio>
             </div>
 
-            <div class="slide" id="slide9">
+            <div class="gallery-item">
                 <img src="images/ende.png" alt="Bild 4">
-                <audio id="audio9" controls>
+                <audio controls>
                     <source src="audios/ende.mp3" type="audio/mp3">
                     Dein Browser unterstützt keine Audio-Wiedergabe.
                 </audio>
             </div>
-
-            <!-- Nächster Button -->
-            <button id="nextBtn" class="nav-btn">❯</button>
         </section>
     </main>
 
-    <script src="script.js"></script>
 </body>
 </html>

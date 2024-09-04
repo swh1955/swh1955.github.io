@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: #76CBC7;
     color: #fff;
     padding: 1rem 0;
     position: fixed;
@@ -32,26 +32,56 @@ header h1 {
     margin: 0 auto;
 }
 
-/* Galerie-Stil */
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.gallery-item {
-    width: 300px;
-    margin-bottom: 20px;
+/* Slideshow */
+.slideshow {
+    position: relative;
+    max-width: 600px;
+    margin: 100px auto;
     text-align: center;
+    padding: 0 20px;
 }
 
-.gallery-item img {
+.slide {
+    display: none;
+}
+
+.slide img {
     width: 100%;
-    height: auto;
-    border: 2px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    border-radius: 20px;
+    margin: 0 auto; /* Zentrieren und etwas Abstand um das Bild herum */
+    padding: 10px;
+}
+
+audio {
+    margin-top: 10px;
+}
+
+/* Buttons für die Navigation */
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%; /* Rund machen */
+    width: 50px;       /* Breite der runden Schaltfläche */
+    height: 50px;
+    transform: translateY(-50%);
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+.nav-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Footer */
@@ -65,12 +95,12 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .gallery {
-        flex-direction: column;
-        align-items: center;
+    .slideshow {
+        max-width: 100%;
     }
 
-    .gallery-item {
-        width: 100%;
+    .nav-btn {
+        font-size: 20px;
+        padding: 8px;
     }
 }
