@@ -3,8 +3,17 @@ const slides = document.querySelectorAll('.slide');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 
-// Initiale Anzeige der ersten Folie
-showSlide(currentSlide);
+// Initiale Anzeige der richtigen Folie basierend auf dem Hash
+function initSlideFromHash() {
+    const hash = window.location.hash;
+    if (hash) {
+        const slideIndex = parseInt(hash.replace('#slide', '')) - 1;
+        if (slideIndex >= 0 && slideIndex < slides.length) {
+            currentSlide = slideIndex;
+        }
+    }
+    showSlide(currentSlide);
+}
 
 // Funktion zum Anzeigen der Folie
 function showSlide(index) {
@@ -72,3 +81,5 @@ document.addEventListener('touchend', (e) => {
         prevBtn.click();
     }
 });
+
+initSlideFromHash();
