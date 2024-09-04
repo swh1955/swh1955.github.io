@@ -70,7 +70,7 @@ body {
 }
 
 /* Responsive Anpassungen */
-@media (max-width: 768px) {
+@media (min-width: 500px) and (max-width: 768px) {
     .magischer-wald-titel {
         font-size: 2rem;
         letter-spacing: 0.5px;
@@ -86,9 +86,9 @@ body {
     }
 }
 
-@media (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 500px) {
     .magischer-wald-titel {
-        font-size: 1.8rem;
+        font-size: 1rem;
         letter-spacing: 0.2px;
     }
 
