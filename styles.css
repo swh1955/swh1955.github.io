@@ -102,6 +102,22 @@ body {
     }
 }
 
+@media (max-width: 300px) {
+    .magischer-wald-titel {
+        font-size: 1rem;
+        letter-spacing: 0.1px;
+    }
+
+    .magischer-wald-subtitel {
+        font-size: .9rem;
+    }
+
+    .logo-container img {
+        width: 60px;
+        height: auto;
+    }
+}
+
 /* Header-Stil */
 header {
     background: #76CBC7;
